@@ -1,2 +1,2 @@
 # cbook
-Codes and Excercises from 'The C Programming Language by K &amp; R`
+Codes and Exercises from 'The C Programming Language by K &amp; R`
