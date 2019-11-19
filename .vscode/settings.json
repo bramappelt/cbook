@@ -2,6 +2,16 @@
     "files.associations": {
         "stdio.h": "c",
         "float.h": "c",
-        "limits.h": "c"
+        "limits.h": "c",
+        "cstdio": "c",
+        "stdlib.h": "c",
+        "cmath": "c",
+        "cstdarg": "c",
+        "cstdint": "c",
+        "cstdlib": "c",
+        "type_traits": "c",
+        "limits": "c",
+        "*.tcc": "c",
+        "typeinfo": "c"
     }
 }
