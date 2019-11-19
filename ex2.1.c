@@ -6,20 +6,20 @@
 /* it is really important to select the appropriate format specifiers */
 int main() {
     printf("####################### limits.h ########################\n");
-    printf("CHAR_BIT:\t%d\n", CHAR_BIT, 8);                                     // 8 bits
+    printf("CHAR_BIT:\t%d\t%d\n", CHAR_BIT, 8);                                 // 8 bits
     printf("CHAR_MAX:\t%d\t%.0f\n", CHAR_MAX, pow(2, CHAR_BIT) / 2 - 1);        // 8 bits
     printf("CHAR_MIN:\t%d\t%.0f\n", CHAR_MIN, -1 * pow(2, CHAR_BIT) / 2);       // 8 bits
-    printf("INT_MAX:\t%d\n", INT_MAX);                          // 32 bits
-    printf("INT_MIN:\t%d\n", INT_MIN);           // 32 bits
-    printf("LONG_MAX:\t%ld\n", LONG_MAX);        // 32 bits
-    printf("LONG_MIN:\t%ld\n", LONG_MIN);        // 32 bits
+    printf("INT_MAX:\t%d\n", INT_MAX);                                          // 32 bits
+    printf("INT_MIN:\t%d\n", INT_MIN);                                          // 32 bits
+    printf("LONG_MAX:\t%ld\n", LONG_MAX);       // 32 bits (64 on my linux machine)
+    printf("LONG_MIN:\t%ld\n", LONG_MIN);       // 32 bits (64 on my linux machine)
     printf("SCHAR_MAX:\t%d\n", SCHAR_MAX);      // 8 bits
     printf("SCHAR_MIN:\t%d\n", SCHAR_MIN);      // 8 bits
     printf("SHRT_MAX:\t%d\n", SHRT_MAX);        // 16 bits
     printf("SHRT_MIN:\t%d\n", SHRT_MIN);        // 16 bits
     printf("UCHAR_MAX:\t%d\n", UCHAR_MAX);      // 8 bits
     printf("UINT_MAX:\t%u\n", UINT_MAX);        // 32 bits
-    printf("ULONG_MAX:\t%u\n", ULONG_MAX);      // 32 bits
+    printf("ULONG_MAX:\t%lu\n", ULONG_MAX);     // 32 bits
     printf("USHRT_MAX:\t%u\t%u\n", USHRT_MAX, (unsigned short int)pow(2, 16) - 1);                  // 16 bits
     printf("LLONG_MAX:\t%lld\t%lld\n", LLONG_MAX, (signed long long int)(pow(2, 64) / 2 - 1));      // 64 bits
     printf("LLONG_MIN:\t%lld\t%lld\n", LLONG_MIN, (signed long long int)(-1 * pow(2, 64) / 2));     // 64 bits
