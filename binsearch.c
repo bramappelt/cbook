@@ -17,6 +17,8 @@ int main(void) {
 
     result = binsearch(x, v, n);
     printf("%d at index %d\n", x, result);
+
+    return 0;
 }
 
 /* find index of array element x using binary search

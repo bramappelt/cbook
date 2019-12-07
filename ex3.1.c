@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* This implementation is faster, however it isn't much */
 
 int binsearch_self(int x, int v[], int n);
 
@@ -17,6 +18,8 @@ int main(void) {
 
     result = binsearch_self(x, v, n);
     printf("%d at index %d\n", x, result);
+
+    return 0;
 }
 
 /* find index of array element x using binary search

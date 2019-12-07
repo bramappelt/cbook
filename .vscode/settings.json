@@ -14,5 +14,6 @@
         "*.tcc": "c",
         "typeinfo": "c",
         "print_binary.h": "c"
-    }
+    },
+    "python.pythonPath": "C:\\Users\\bramb\\Documents\\codes\\python36\\ENVIRONMENTS\\thesisenv\\Scripts\\python.exe"
 }
